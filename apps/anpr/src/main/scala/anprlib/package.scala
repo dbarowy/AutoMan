@@ -19,7 +19,7 @@ package object anprlib {
   )
 
   def my_optparse(args: Array[String], invoked_as_name: String) : Utilities.OptionMap = {
-    val usage = "Usage: " + invoked_as_name + " -k [key] -s [secret] -b [sanbox]" +
+    val usage = "Usage: " + invoked_as_name + " -k [key] -s [secret] -b [sandbox]" +
       "\n  NOTE: passing key and secret this way will expose your" +
       "\n  credentials to users on this system."
     if (args.length != 6) {
